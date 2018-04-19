@@ -7,4 +7,5 @@ node {
         sh 'node --version'
     }
     customImage.push()
+    customImage.push('latest')
  }
